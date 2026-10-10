@@ -10,7 +10,7 @@ Chengyang Li<sup>1</sup>, Yujie Wan<sup>2</sup>, Shuai Wang<sup>3</sup>, Kejiang
 <sup>3</sup>Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences<br>
 <sup>4</sup>University of Macau · <sup>5</sup>Istanbul Medipol University
 
-[Overview](https://siat-invs.github.io/OpenMAMS-project/#overview) · [Architecture](https://siat-invs.github.io/OpenMAMS-project/#architecture) · [CARLA Simulation](https://siat-invs.github.io/OpenMAMS-project/#carla-simulation) · [Real-World Experiments](https://siat-invs.github.io/OpenMAMS-project/#real-world-experiments) · [MemNTN](https://siat-invs.github.io/OpenMAMS-project/#memory-native-non-terrestrial-networks) · [Citation](#citation)
+[Overview](https://siat-invs.github.io/OpenMAMS-project/#overview) · [Architecture](https://siat-invs.github.io/OpenMAMS-project/#architecture) · [CARLA Simulation](https://siat-invs.github.io/OpenMAMS-project/#carla-simulation) · [Real-World Experiments](https://siat-invs.github.io/OpenMAMS-project/#real-world-experiments) · [MemNTN](https://siat-invs.github.io/OpenMAMS-project/#memory-native-non-terrestrial-networks) · [Acknowledgements](#acknowledgements) · [Citation](#citation)
 
 [Project Website](https://siat-invs.github.io/OpenMAMS-project/) · [arXiv:2609.35431](https://arxiv.org/abs/2609.35431) · [Paper PDF](https://arxiv.org/pdf/2609.35431)
 
@@ -274,6 +274,15 @@ python -m pytest ntn/tests -q
   retain their original licenses and copyright notices.
 - Building geometry: © OpenStreetMap contributors,
   [ODbL](https://www.openstreetmap.org/copyright). Some heights use default estimates.
+
+## Acknowledgements
+
+We thank the authors and contributors of:
+
+- [ReMEmbR](https://github.com/NVIDIA-AI-IOT/remembr), for components used in our research QA pipeline.
+- [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) and [Qwen3](https://github.com/QwenLM/Qwen3), for models used in our captioning and question-answering research.
+- [CARLA](https://github.com/carla-simulator/carla) and [CARLA Dataset Tools](https://github.com/KevinLADLee/carla_dataset_tools), for simulation and data-collection tools.
+- [LEOPath](https://github.com/Fundacio-i2CAT/LEOPath) and [OpenNTN](https://github.com/ant-uni-bremen/OpenNTN), for satellite-topology and optional channel-model tools.
 
 ## Citation
 
